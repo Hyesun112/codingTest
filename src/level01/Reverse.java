@@ -1,6 +1,7 @@
 package level01;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 class Reverse {
@@ -26,7 +27,7 @@ class Reverse {
     public static void main(String[] args) {
         Reverse r = new Reverse();
         long n = 12345;
-        System.out.println(r.Reverse(n));
+        System.out.println(Arrays.toString(r.Reverse(n)));
     }
 }
 
